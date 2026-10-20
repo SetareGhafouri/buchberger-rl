@@ -1,0 +1,98 @@
+{
+  "distribution": "3-20-10-uniform",
+  "n": 1000,
+  "seed": 987654321,
+  "reference": "degree",
+  "rows": [
+    {
+      "method": "random",
+      "mean_additions": 306.14,
+      "std_additions": 97.17,
+      "improvement_vs_ref_%": -60.5,
+      "mean_paired_diff": -115.38,
+      "ci95_low": -121.47,
+      "ci95_high": -109.26,
+      "wilcoxon_p": 7.18e-138
+    },
+    {
+      "method": "first",
+      "mean_additions": 343.97,
+      "std_additions": 114.66,
+      "improvement_vs_ref_%": -80.3,
+      "mean_paired_diff": -153.21,
+      "ci95_low": -160.31,
+      "ci95_high": -146.22,
+      "wilcoxon_p": 1.93e-154
+    },
+    {
+      "method": "degree",
+      "mean_additions": 190.77,
+      "std_additions": 53.41,
+      "improvement_vs_ref_%": 0.0,
+      "mean_paired_diff": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0,
+      "wilcoxon_p": null
+    },
+    {
+      "method": "normal",
+      "mean_additions": 192.98,
+      "std_additions": 55.36,
+      "improvement_vs_ref_%": -1.2,
+      "mean_paired_diff": -2.21,
+      "ci95_low": -5.0,
+      "ci95_high": 0.61,
+      "wilcoxon_p": 0.246
+    },
+    {
+      "method": "sugar",
+      "mean_additions": 256.33,
+      "std_additions": 85.76,
+      "improvement_vs_ref_%": -34.4,
+      "mean_paired_diff": -65.56,
+      "ci95_low": -70.89,
+      "ci95_high": -60.38,
+      "wilcoxon_p": 1.44e-92
+    },
+    {
+      "method": "true_degree",
+      "mean_additions": 178.21,
+      "std_additions": 51.03,
+      "improvement_vs_ref_%": 6.6,
+      "mean_paired_diff": 12.55,
+      "ci95_low": 9.16,
+      "ci95_high": 15.9,
+      "wilcoxon_p": 1e-12
+    },
+    {
+      "method": "monomial_first",
+      "mean_additions": 191.51,
+      "std_additions": 56.31,
+      "improvement_vs_ref_%": -0.4,
+      "mean_paired_diff": -0.74,
+      "ci95_low": -1.83,
+      "ci95_high": 0.43,
+      "wilcoxon_p": 1.42e-34
+    },
+    {
+      "method": "agent (greedy)",
+      "mean_additions": 189.39,
+      "std_additions": 59.21,
+      "improvement_vs_ref_%": 0.7,
+      "mean_paired_diff": 1.38,
+      "ci95_low": -2.74,
+      "ci95_high": 5.4,
+      "wilcoxon_p": 0.203
+    },
+    {
+      "method": "agent (sampled)",
+      "mean_additions": 194.94,
+      "std_additions": 59.63,
+      "improvement_vs_ref_%": -2.2,
+      "mean_paired_diff": -4.17,
+      "ci95_low": -8.33,
+      "ci95_high": -0.07,
+      "wilcoxon_p": 0.193
+    }
+  ]
+}

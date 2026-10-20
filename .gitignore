@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+runs/*/checkpoints/epoch_*.npz
+!runs/*/checkpoints/epoch_0100.npz
+*.log
+.DS_Store

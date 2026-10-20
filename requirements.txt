@@ -1,0 +1,7 @@
+numpy>=1.24
+scipy>=1.10
+pyyaml>=6.0
+matplotlib>=3.7
+# optional, for tests and the independent cross-check against SymPy
+pytest>=7
+sympy>=1.12

@@ -1,0 +1,27 @@
+{
+  "trained": {
+    "spearman_score_vs": {
+      "lcm_degree": -0.671,
+      "true_degree": -0.697,
+      "monomial": 0.386
+    },
+    "agreement_with": {
+      "degree": 0.532,
+      "true_degree": 0.469,
+      "monomial_first": 0.503
+    }
+  },
+  "untrained": {
+    "spearman_score_vs": {
+      "lcm_degree": 0.039,
+      "true_degree": 0.013,
+      "monomial": -0.004
+    },
+    "agreement_with": {
+      "degree": 0.063,
+      "true_degree": 0.074,
+      "monomial_first": 0.076
+    }
+  },
+  "states_analyzed": 14153
+}

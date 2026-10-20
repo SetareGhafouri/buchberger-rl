@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "buchberger-rl: Learning S-pair selection strategies for Buchberger's algorithm"
+authors:
+  - family-names: Ghafouri
+    given-names: Setare
+version: 1.0.0
+date-released: 2024-09-21
+license: MIT
+references:
+  - type: conference-paper
+    title: "Learning selection strategies in Buchberger's algorithm"
+    authors:
+      - family-names: Peifer
+        given-names: Dylan
+      - family-names: Stillman
+        given-names: Michael
+      - family-names: Halpern-Leistner
+        given-names: Daniel
+    conference:
+      name: "International Conference on Machine Learning (ICML)"
+    year: 2020

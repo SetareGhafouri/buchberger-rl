@@ -1,0 +1,31 @@
+# Ablation (k1): identical to ppo_3-20-10-weighted.yaml except for one setting,
+# trained for 100 epochs and compared with the main run's epoch-100 checkpoint.
+name: ablation_k1
+
+env:
+  distribution: 3-20-10-weighted
+  order: grevlex
+  elimination: gebauermoeller
+  k: 1                  # ablation: leading term only -> 6 features per pair
+  feature_scale: 0.05   # exponents / 20
+
+ppo:
+  hidden: [128]
+  lr: 0.001
+  gamma: 0.99
+  lam: 0.97
+  clip_eps: 0.2
+  target_kl: 0.01
+  policy_updates: 40
+  batch_size: 512
+  entropy_coef: 0.0
+  value: degree         # degree-strategy rollout as the state-value baseline
+  normalize_advantages: true
+
+run:
+  epochs: 100
+  episodes_per_epoch: 100
+  workers: 2
+  seed: 0
+  checkpoint_every: 25
+  smoothing: 10
