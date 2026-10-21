@@ -201,7 +201,7 @@ sugar and normal coincide exactly, as theory predicts for homogeneous input.
 ## Quick start
 
 ```bash
-git clone https://github.com/<SetareGhafouri>/buchberger-rl.git
+git clone https://github.com/SetareGhafouri/buchberger-rl.git
 cd buchberger-rl
 pip install -e ".[dev]"            # numpy, scipy, pyyaml, matplotlib (+ pytest, sympy)
 
@@ -300,7 +300,7 @@ A fuller bibliography is in [`docs/background.md`](docs/background.md).
   title  = {Learning S-Pair Selection in Buchberger's Algorithm},
   note   = {B.Sc. thesis project, Isfahan University of Technology. Supervisor: A. Hashemi},
   year   = {2024},
-  url    = {https://github.com/<SetareGhafouri>/buchberger-rl}
+  url    = {https://github.com/SetareGhafouri/buchberger-rl}
 }
 ```
 
